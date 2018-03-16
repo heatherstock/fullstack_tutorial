@@ -12,8 +12,8 @@ const app = express();
 // res object represents the outgoing response
 // res.send sends response (some JSON) back to whoever made the request
 app.get('/', (req, res) => {
-    res.send({ hi: 'there' });
-})
+    res.send({ hi: 'i love you' });
+});
 
 // set local host to 5000
 // app.listen(5000);
