@@ -15,5 +15,7 @@ app.get('/', (req, res) => {
     res.send({ hi: 'there' });
 })
 
-// set local host to 5000?
-app.listen(5000);
+// set local host to 5000
+// app.listen(5000);
+// set port provided by heroku OR 5000
+const PORT = process.env.PORT || 5000
